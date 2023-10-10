@@ -1,0 +1,1 @@
+<h1 style="text-align: center; display: flex; justify-content: center; align-items: center;">404 NOT FOUND</h1>

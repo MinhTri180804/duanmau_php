@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* set root default */
+:root {
+    --gray-black-color : #082032;
+    --red-sale-color : #FB2249;
+    --blue-text-color : #0066B2;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-sale a {
+    color: var(--red-sale-color) !important;
+    font-weight: 600 !important;
+}
+
+.text-blue {
+    color: var(--blue-text-color);
+}
+
+.section_products {
+    margin: 20px 0px;
+}
+
+.title-section {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/* notification header */
+.message_header {
+    padding: 15px 0px;
+    background-color: var(--gray-black-color);
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* header */
+
+header {
+    border-bottom: 1px solid #000;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.logo{
+    width: 187px;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.nav_header .nav_header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav_header-list > li a:hover {
+    color: var(--blue-text-color);
+}
+
+.nav_header-list > li > a {
+    color: #000;
+    text-decoration: none;
+}
+
+.option_user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.option_user i {
+    font-size: 18px;
+}
+
+
+/* location */ 
+.location {
+    padding: 10px 0px;
+    background-color: #ccc;
+}

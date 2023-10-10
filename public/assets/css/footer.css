@@ -1,0 +1,15 @@
+
+footer {
+    margin: 50px 0px 0px;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+    color: #fff;
+    font-size: 20px;
+    background-color: var(--gray-black-color);
+
+}
