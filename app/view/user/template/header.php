@@ -5,7 +5,7 @@
         <div class="container">
             <div class="container_header">
                 <div class="logo">
-                    <a href="<?php echo _WEB_ROOT . 'home' ?>"><img src="<?php echo _WEB_ROOT ?>public/img/logo-no-background.png" alt="" class="logo_img"></a>
+                    <a href="<?php echo _WEB_ROOT . 'home' ?>"><img src="<?php echo _IMG_DEFAULT ?>logo-no-background.png" alt="" class="logo_img"></a>
                 </div>
                 <div class="nav_header">
                     <ul class="nav_header-list">
@@ -33,20 +33,20 @@
                     </ul>
                 </div>
 
-                <div class="option_user">
-                    <div class="option_user-search">
+                <div class="list_option-user">
+                    <div class="option_user option_user-search">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                    <div class="option_user-account">
+                    <div class="option_user option_user-account">
                         <i class="fa-solid fa-user"></i>
                     </div>
-                    <div class="option_user-notification">
+                    <div class="option_user option_user-notification">
                         <i class="fa-solid fa-bell"></i>
                     </div>
-                    <div class="option_user-heart">
+                    <div class="option_user option_user-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
-                    <div class="option_user-cart">
+                    <div class="option_user option_user-cart">
                         <i class="fa-solid fa-bag-shopping"></i>
                     </div>
                 </div>

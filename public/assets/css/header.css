@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 body::-webkit-scrollbar {
@@ -148,7 +149,7 @@ header {
 }
 
 .nav_header-list > li a:hover {
-    color: var(--blue-text-color);
+    color: var(--blue-text-color) !important;
 }
 
 .nav_header-list > li > a {
@@ -156,17 +157,17 @@ header {
     text-decoration: none;
 }
 
-.option_user {
+.list_option-user {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 15px;
 }
 
-.option_user i {
+.option_user > i {
     font-size: 18px;
+    cursor: pointer;
 }
-
 
 /* location */ 
 .location {
